@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPERACIONES</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <form class="form" id="arithmeticForm" action="./operacion.php" method="POST">
+        <div class="flex">
+          <div class="login color">Operaciones</div>
+          <label class="color">valor 1 :</label>
+          <input type="text" id="num1" class="input"  name="num1" required><br>
+          <label class="color">valor2 :</label>
+          <input type="text" class="input" id="num2" name="num2" required><br>
+          <label for="operacion">Operación:</label>
+            <select id="operacion" name="operacion" required>
+             <option value="suma">Suma</option>
+              <option value="resta">Resta</option>
+              <option value="multiplicacion">Multiplicación</option>
+              <option value="division">División</option>
+            </select><br><br>
+            <button type="submit" class="" >Calcular</button><br><br>
+            <div id="resultado" class="input">Resultado: </div>
+        </div>
+    </form> 
+   
+
+    <script src="./main.js"></script>
+</body>
+</html>
+
+        
+        
+       
+
